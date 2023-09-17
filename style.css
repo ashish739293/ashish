@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bodoni Moda', serif;
+}
+body{
+    height: 100vh;
+    /* width: auto; */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('bday.gif');
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-size:cover;
+    
+}
+.contan{
+    /* perspective: 1000px; */
+}
+.card{
+    width: 280px;
+    height: 360px;
+    position: absolute;
+    /* top: 100px; */
+    /* left: 130px; */
+    transition: 3s;
+    transform-style: preserve-3d;
+}
+/* .card:hover{
+    transform: rotateY(180deg);
+    
+} */
+/* .outside:hover{
+    position: relative;
+} */
+.block{
+    position: absolute;
+    /* top:200px;
+    right: 600px; */
+    /* perspective: 800px; */
+}
+.outside,.inside{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1.5rem;
+}
+.outside{
+    background-color: blanchedalmond;
+    box-shadow: inset 0 5px 10px rgba(0,0,0,0.5);
+    position:absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.outside h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: salmon;
+    margin-bottom: 30px;
+}
+.inside{
+    background-color: rgb(255, 215, 208);
+    box-shadow: inset 0 5px 10px rgba(0,0,0,0.5);
+    transform: rotateY(0deg);
+}
+.inside h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#cd{
+    position: absolute;
+}
+#cd:target{
+    position: relative;
+    transform: rotateY(0deg);
+}
+.hd:target{
+    position: absolute;
+    transform: rotateY(180deg);
+}
+#cd1{
+    position: absolute;
+}
+#cd1:target{
+    position: relative;
+    transform: rotateY(0deg);
+}
+.hd1:target{
+    position: absolute;
+    transform: rotateY(180deg);
+}
+#cd2{
+    position: absolute;
+}
+#cd2:target{
+    position: relative;
+    transform: rotateY(0deg);
+}
+.hd2:target{
+    position: absolute;
+    transform: rotateY(180deg);
+}
+
+#cd3:target{
+    position: relative;
+    transform: rotateY(0deg);
+}
+.hd3:target{
+    position: absolute;
+    transform: rotateY(180deg);
+}
+
+#cd4:target{
+    position: relative;
+    transform: rotateY(0deg);
+}
+.hd4:target{
+    position: absolute;
+    transform: rotateY(180deg);
+}
+
+#cd5:target{
+    position: relative;
+    transform: rotateY(0deg);
+}
+.hd5:target{
+    position: absolute;
+    transform: rotateY(180deg);
+}
+
+#cd6:target{
+    position: relative;
+    transform: rotateY(0deg);
+}
+.hd6:target{
+    position: absolute;
+    transform: rotateY(180deg);
+}
+
+#cd7:target{
+    position: relative;
+    transform: rotateY(0deg);
+}
+.hd7:target{
+    position: absolute;
+    transform: rotateY(180deg);
+}
